@@ -1,0 +1,32 @@
+# Install brew
+# /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# Install fonts
+# Install for Mac using brew.
+brew install --cask font-ubuntu-mono-nerd-font
+
+# For ubuntu:
+# mkdir -p $HOME/.local/share/fonts
+# cp $PWD/fonts/UbuntuMono* $HOME/.local/share/fonts
+
+# Install Oh my zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+brew install zsh-autosuggestions
+
+echo "source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ~/.zshrc
+
+
+# Install Allacritty
+
+brew install allacritty
+mkdir -p ~/.config/allacritty
+
+mkdir -p ~/.config/alacritty/themes
+git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes
+
+#  Tmux -> Terminal Multiplexer
+
+brew install tmux
+
+nvim ~/.tmux.conf
