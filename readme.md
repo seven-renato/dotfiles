@@ -4,6 +4,9 @@ My configuration files for zsh, vim, tmux, alacritty and aerospace.
 ## Neovim setup
 ![nvim screenshot](./docs/nvim.png)
 
+## Terminal setup (macOS & Linux)
+![terminal screenshot](./docs/terminal.png)
+
 ## Font
 Using Iosevka Nerd Font on nvim.
 (https://github.com/be5invis/Iosevka)
