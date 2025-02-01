@@ -4,6 +4,13 @@ My configuration files for zsh, vim, tmux, alacritty and aerospace.
 ## Neovim setup
 ![nvim screenshot](./docs/nvim.png)
 
+## Font
+Using Iosevka Nerd Font on nvim.
+(https://github.com/be5invis/Iosevka)
+
+## Theme
+Yugen.
+(https://github.com/bettervim/yugen.nvim)
 
 ## Shell
 I am using oh-my-zsh.
