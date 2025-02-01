@@ -29,4 +29,14 @@ git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/theme
 
 brew install tmux
 
-nvim ~/.tmux.conf
+nvim ~/.tmur.conf
+
+
+# Aerospace
+
+brew install aerospace
+
+# Font
+
+
+brew install --cask font-iosevka-nerd-font
